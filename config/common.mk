@@ -208,3 +208,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 include vendor/gzosp/google/GoogleAudio.mk
 
 EXTENDED_POST_PROCESS_PROPS := vendor/gzosp/tools/gzosp_process_props.py
+
+$(call inherit-product, vendor/gzosp/prebuilt/prebuilt.mk)
